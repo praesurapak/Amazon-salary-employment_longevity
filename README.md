@@ -1,6 +1,6 @@
 # Amazon's Human Resources: Sensitivity Analysis of Employee's Salary & Employment Longevity
 
-This project is a final project of BUS-G 492: Predictive Analytics Business Strategy at Kelley School of Business 
+This project is a final project of BUS-G 492: Predictive Analytics Business Strategy at Kelley School of Business (Fall 2021)
 
 Project by: Prae Kongchan
 
