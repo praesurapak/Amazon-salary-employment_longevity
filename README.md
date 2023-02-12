@@ -1,10 +1,10 @@
 # Amazon's Human Resources: Sensitivity Analysis of Employee's Salary & Employment Longevity
 
-Assuming that the corporation is interested in the sensitivity of its employees' salary to employment longevity, this report contains an analysis for Amazon's human resources, focusing on the causal relationship between salary changes and longevity. By using Stata, this analysis is based on observational data that contains information about average employee longevity, average salary, and other variables for multiple groups of employees of Amazon at one point in time.
-
 This project is a final project of BUS-G 492: Predictive Analytics Business Strategy at Kelley School of Business 
 
 Project by: Prae Kongchan
+
+Assuming that the corporation is interested in the sensitivity of its employees' salary to employment longevity, this report contains an analysis for Amazon's human resources, focusing on the causal relationship between salary changes and longevity. By using Stata, this analysis is based on observational data that contains information about average employee longevity, average salary, and other variables for multiple groups of employees of Amazon at one point in time.
 
 # The Effect of Salary Changes on Longevity
 To find the effect of salary changes on employment longevity, the estimation that comes from the simple regression model of average salary and average longevity is not a good estimate of the causal effect of salary changes on employment longevity in the population. This happens because salary is a strategic variable that does not have the feature of a randomly assigned treatment. What this means is the treatment (higher salary) probably was given to observations (employees) where the effect was greater. For example, giving a higher salary to older employees might make them stay at the company longer; different groups of employees have a different response to the treatment of higher or lower salaries.
@@ -39,3 +39,8 @@ The second model is a two-staged least squares regression that utilized the code
 <img width="446" alt="2" src="https://user-images.githubusercontent.com/112535634/218336953-e25f8e3e-534f-4dfc-9dee-7df7355f8f27.png">
 
 From the regression, the coefficient of average salary indicates that $1000 increase in average salary will result in 0.034 years increase in employment longevity of employees at Amazon. The t-statistics tells us that the observation of 0.034 is 28.15 standard errors above the null hypothesis of the salary having no effect. We can infer the causal relationship because using the budget boost as an instrumental variable, the model is exogenous. All coefficients are significant because the p-values are less than 0.05.
+
+## Recommendation
+Based on empirical findings of positive causal relationship, salary changes is explicitly link to employment longevity. To meet its long-term human resources strategic objective of increasing employment longevity, Amazon should increase salary to employees. The indirect cost like time and direct financial costs associated with losing employees along with hiring and training replacements for an enterprise like Amazon, given its size and specialization, can be significantly high.
+
+If Amazon fail to offer competitive monetary compensation, Amazon may be at risk of a higher turnover rate. A high turnover rate can negatively impact workplace morale as well as company's reputation, which may ultimately decrease customer loyalty. By increasing salary, Amazon will be able to retain its valued and marketable employees, decrease turnover, and increase employment longevity.
